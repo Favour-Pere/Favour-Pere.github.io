@@ -123,7 +123,7 @@ function initContactForm() {
     const mailtoLink = `mailto:peremoboweirobert@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
 
     // Open email client
-    window.location.href = mailtoLink;
+    globalThis.location.href = mailtoLink;
 
     // Show success message
     showNotification("Opening your email client...", "success");
